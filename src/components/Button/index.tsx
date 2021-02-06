@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 interface Props {
-    outlined?: Boolean;
+    outlined?: boolean;
 }
 
 export default styled.button<Props>`
@@ -22,6 +22,6 @@ export default styled.button<Props>`
         background: ${(props) => 
             props.outlined 
                 ? 'var(--twitter-dark-hover)' 
-                : 'var(--twitter- light-hover'};
+                : 'var(--twitter-light-hover)'};
     }
 `;
